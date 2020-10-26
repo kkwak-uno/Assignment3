@@ -1,1 +1,1 @@
-web: gunicorn parksystem.wsgi --log-file -
+web: gunicorn game-masters.wsgi --log-file -
