@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<div class="jumbotron">
+  <center>
+  <h1 class="display-4">Game Master</h1>
+  <p class="lead">For All Your Tabletop Gaming Needs</p>
+    <img src="{% static "admin/img/gmheader.png" %}" alt="map">
+    </center>
+</div>
+{% endblock content %}
